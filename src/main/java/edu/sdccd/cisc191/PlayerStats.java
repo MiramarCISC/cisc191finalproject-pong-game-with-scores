@@ -10,7 +10,7 @@ public class PlayerStats {
 
     // base stats
     public static double health = 3.0;
-    public static double paddledamage= 1.0;
+    public static double paddleDamage = 1.0;
     public static int cScore;
     public static List<Integer> scoreHistory = new ArrayList<>();
 

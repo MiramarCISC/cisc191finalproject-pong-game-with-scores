@@ -107,7 +107,7 @@ public class GameScene {
                     ballSpeed[0] = 5;
                 }
 
-                //collsion
+                //collision
                 if (circle.getBoundsInParent().intersects(paddle.getBoundsInParent())) {
 
                     direction[0] = -direction[0];

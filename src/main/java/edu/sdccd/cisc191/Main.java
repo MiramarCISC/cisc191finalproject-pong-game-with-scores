@@ -1,7 +1,6 @@
 package edu.sdccd.cisc191;
 
 import edu.sdccd.cisc191.Jdbcstuff.*;
-import edu.sdccd.cisc191.roles.Class_role;
 import edu.sdccd.cisc191.roles.Dps;
 import edu.sdccd.cisc191.roles.Healer;
 import edu.sdccd.cisc191.roles.Tank;
@@ -48,8 +47,8 @@ public class Main extends Application{
         Button back = new Button("back");
         Button Confirm = new Button("Confirm");
         //labels
-        Label Lname = new Label("name");
-        Label Lpassword = new Label("password");
+        Label lName = new Label("name");
+        Label lPassword = new Label("password");
 
         //texts
         TextField name = new TextField();
@@ -59,8 +58,8 @@ public class Main extends Application{
         root.add(Confirm,1,2);
         root.add(back,2,2);
         //label adds
-        root.add(Lname,1,0);
-        root.add(Lpassword,2,0);
+        root.add(lName,1,0);
+        root.add(lPassword,2,0);
         // text adds
         root.add(name,1,1);
         root.add(password,2,1);
@@ -133,8 +132,8 @@ public class Main extends Application{
         Button back = new Button("back");
         Button Confirm = new Button("Confirm");
         //labels
-        Label Lname = new Label("name");
-        Label Lpassword = new Label("password");
+        Label lName = new Label("name");
+        Label lPassword = new Label("password");
 
         //texts
         TextField name = new TextField();
@@ -144,8 +143,8 @@ public class Main extends Application{
         root.add(Confirm,1,2);
         root.add(back,2,2);
         //label adds
-        root.add(Lname,1,0);
-        root.add(Lpassword,2,0);
+        root.add(lName,1,0);
+        root.add(lPassword,2,0);
         // text adds
         root.add(name,1,1);
         root.add(password,2,1);
